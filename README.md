@@ -1,6 +1,20 @@
 # Chat Collections
 
-Chat Collections is a user-scoped SillyTavern UI extension for release 1.18.x. It adds virtual nested collections for saved solo and group chats without moving, renaming, deleting, or bulk-editing chat JSONL files.
+Chat Collections is a third-party SillyTavern UI extension for release 1.18.x. It adds virtual nested collections for saved solo and group chats without moving, renaming, deleting, or bulk-editing chat JSONL files. It can be installed for the current user or for all users of a SillyTavern instance.
+
+![Chat Collections browser with privacy-safe example collection names](docs/chat-collections.png)
+
+## Installation
+
+SillyTavern's extension installer requires Git to be available on the server.
+
+1. Open **Extensions** in SillyTavern's top bar.
+2. Choose **Install extension**.
+3. Paste `https://github.com/starcore42/SillyTavern-Chat-Collections` into the repository URL field.
+4. Choose whether to install it for the **current user** or **all users**.
+5. Select **Install**. Reload SillyTavern if the extension does not appear immediately.
+
+After installation, updates can be installed from **Extensions → Manage extensions**.
 
 ## Open it
 
@@ -63,3 +77,7 @@ From this extension directory:
 ```powershell
 npm test
 ```
+
+## License
+
+Chat Collections is licensed under the [GNU Affero General Public License v3.0](LICENSE).
