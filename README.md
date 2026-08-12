@@ -63,4 +63,3 @@ From this extension directory:
 ```powershell
 npm test
 ```
-
